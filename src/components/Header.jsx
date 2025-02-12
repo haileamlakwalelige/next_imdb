@@ -36,7 +36,12 @@ const Header = () => {
                 <UserButton></UserButton>
               </SignedIn>
               <SignedOut>
-               
+                <Link
+                  href={"/sign-in"}
+                  className="hover:text-blue-700 hover:font-semibold duration-300 transition-transform"
+                >
+                  Sign-In
+                </Link>
               </SignedOut>
             </div>
           </div>
